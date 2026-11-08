@@ -19,3 +19,5 @@ server/uploads/
 server/backups/
 server/*LOCAL*
 node_modules/
+android-demo/classes4.dex
+android-demo/res/raw/sirius_school_ca.crt

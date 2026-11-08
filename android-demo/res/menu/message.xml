@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@id/resend_popup_item" android:title="@string/chat_message_resend" />
+    <item android:id="@id/delete_popup_item" android:title="@string/common_delete" />
+</menu>

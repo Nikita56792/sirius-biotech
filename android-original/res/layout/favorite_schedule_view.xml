@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" app:dynamicProgressTint="eventTheme" />
+    <com.eventicious.ui.schedule.common.view.SchedulePlaceholderView android:icon="@drawable/favourites_placeholder" android:id="@id/emptyView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/schedule_favorites_placeholder_description" android:title="@string/schedule_favorites_placeholder" android:alpha="0.0" app:dynamicTint="eventTheme" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@id/sessionRecyclerView" android:paddingBottom="12.0dip" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+</merge>

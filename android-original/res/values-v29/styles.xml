@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Theme.Eventicious" parent="@style/Theme.Material3.Light.NoActionBar">
+        <item name="android:colorBackground">@color/ev_sys_surface</item>
+        <item name="android:textColorHighlight">?colorSecondaryContainer</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:statusBarColor">@color/transparent</item>
+        <item name="android:navigationBarColor">@color/transparent</item>
+        <item name="android:colorEdgeEffect">?colorOnSurface</item>
+        <item name="android:forceDarkAllowed">false</item>
+        <item name="borderlessButtonStyle">@style/Widget.Eventicious.Button.TextButton</item>
+        <item name="bottomSheetDialogTheme">@style/ThemeOverlay.Eventicious.BottomSheetDialog</item>
+        <item name="bottomSheetDragHandleStyle">@style/Widget.Eventicious.BottomSheet.DragHandle</item>
+        <item name="colorError">@color/ev_sys_error</item>
+        <item name="colorErrorContainer">@color/ev_sys_errorContainer</item>
+        <item name="colorOnError">@color/ev_sys_onError</item>
+        <item name="colorOnErrorContainer">@color/ev_sys_onErrorContainer</item>
+        <item name="colorOnPrimary">@color/ev_sys_onPrimary</item>
+        <item name="colorOnPrimaryContainer">@color/ev_sys_onPrimaryContainer</item>
+        <item name="colorOnSecondary">@color/ev_sys_onSecondary</item>
+        <item name="colorOnSecondaryContainer">@color/ev_sys_onSecondaryContainer</item>
+        <item name="colorOnSurface">@color/ev_sys_onSurface</item>
+        <item name="colorOnSurfaceInverse">@color/ev_sys_onSurfaceInverse</item>
+        <item name="colorOnSurfaceVariant">@color/ev_sys_onSurfaceVariant</item>
+        <item name="colorOnTertiary">@color/ev_sys_onTertiary</item>
+        <item name="colorOnTertiaryContainer">@color/ev_sys_onTertiaryContainer</item>
+        <item name="colorOutline">@color/ev_sys_outline</item>
+        <item name="colorOutlineVariant">@color/ev_sys_outlineVariant</item>
+        <item name="colorPrimary">@color/ev_sys_primary</item>
+        <item name="colorPrimaryContainer">@color/ev_sys_primaryContainer</item>
+        <item name="colorPrimaryInverse">@color/ev_sys_primaryInverse</item>
+        <item name="colorSecondary">@color/ev_sys_secondary</item>
+        <item name="colorSecondaryContainer">@color/ev_sys_secondaryContainer</item>
+        <item name="colorSurface">@color/ev_sys_surface</item>
+        <item name="colorSurfaceContainer">@color/ev_sys_surfaceContainer</item>
+        <item name="colorSurfaceContainerHigh">@color/ev_sys_surfaceContainerHigh</item>
+        <item name="colorSurfaceContainerHighest">@color/ev_sys_surfaceContainerHighest</item>
+        <item name="colorSurfaceContainerLow">@color/ev_sys_surfaceContainerLow</item>
+        <item name="colorSurfaceContainerLowest">@color/ev_sys_surfaceContainerLowest</item>
+        <item name="colorSurfaceDim">@color/ev_sys_surfaceDim</item>
+        <item name="colorSurfaceInverse">@color/ev_sys_surfaceInverse</item>
+        <item name="colorSurfaceVariant">@color/ev_sys_surfaceVariant</item>
+        <item name="colorTertiary">@color/ev_sys_tertiary</item>
+        <item name="colorTertiaryContainer">@color/ev_sys_tertiaryContainer</item>
+        <item name="enableEdgeToEdge">true</item>
+        <item name="materialAlertDialogTheme">@style/ThemeOverlay.Eventicious.AlertDialog</item>
+        <item name="materialButtonOutlinedStyle">@style/Widget.Eventicious.Button.OutlinedButton</item>
+        <item name="materialButtonStyle">@style/Widget.Eventicious.Button</item>
+        <item name="textInputStyle">?textInputFilledStyle</item>
+        <item name="toolbarStyle">?toolbarSurfaceStyle</item>
+    </style>
+</resources>

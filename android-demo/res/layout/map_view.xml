@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.widget.ViewPager android:id="@id/viewPager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:gravity="center" android:id="@id/emptyView" android:padding="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_content_empty" />
+    <FrameLayout android:id="@id/appbar" android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:backgroundTint="@color/surface_60">
+        <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetEnd="16.0dip" app:contentInsetStartWithNavigation="16.0dip" app:navigationIcon="@drawable/toolbar_menu_icon">
+            <com.google.android.material.tabs.TabLayout android:layout_gravity="center" android:id="@id/tabLayout" android:layout_width="wrap_content" android:layout_height="@dimen/tab_layout_height_compact" />
+        </com.eventicious.toolbar.Toolbar>
+    </FrameLayout>
+</merge>

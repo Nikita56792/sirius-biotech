@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.button.MaterialButton android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginRight="16.0dip" android:text="@string/meetings_intervals_add" android:layout_marginHorizontal="16.0dip" style="?borderlessButtonStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

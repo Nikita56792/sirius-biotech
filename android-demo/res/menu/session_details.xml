@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:icon="@drawable/icon_add_to_calendar_24" android:id="@id/menu_item_add_to_calendar" android:title="@string/session_menu_item_add_to_calendar" app:actionViewClass="com.eventicious.toolbar.menu.ActionIconMenuView" app:showAsAction="always" />
+    <item android:id="@id/menu_item_favorite" android:title="@string/favorites_add" android:checkable="true" app:actionViewClass="com.eventicious.ui.widget.FavoriteMenuView" app:showAsAction="always" />
+</menu>

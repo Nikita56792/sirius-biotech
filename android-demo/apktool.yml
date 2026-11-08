@@ -1,0 +1,22 @@
+version: 2.12.1
+apkFileName: MSS_Moscow_Startup_Summit.apk
+usesFramework:
+  ids:
+  - 1
+sdkInfo:
+  minSdkVersion: 24
+  targetSdkVersion: 35
+packageInfo:
+  forcedPackageId: 127
+versionInfo:
+  versionCode: 1000020
+  versionName: 12.2.9
+doNotCompress:
+- arsc
+- png
+- webp
+- assets/dexopt/baseline.prof
+- assets/dexopt/baseline.profm
+- assets/mlkit_barcode_models/barcode_ssd_mobilenet_v1_dmp25_quant.tflite
+- assets/mlkit_barcode_models/oned_auto_regressor_mobile.tflite
+- assets/mlkit_barcode_models/oned_feature_extractor_mobile.tflite

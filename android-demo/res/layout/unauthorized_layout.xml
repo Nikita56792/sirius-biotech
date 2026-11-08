@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_gravity="center" android:orientation="vertical" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:layout_gravity="center" android:id="@android:id/title" android:layout_width="wrap_content" android:layout_height="wrap_content" app:drawableTopCompat="@drawable/placeholder_unauthorized" style="@style/Widget.Eventicious.Text.Placeholder" />
+    <Button android:layout_gravity="center" android:id="@android:id/button1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4.0dip" android:text="@string/common_login" style="?borderlessButtonStyle" />
+</LinearLayout>

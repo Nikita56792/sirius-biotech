@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SbsLaunchTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#eeeef4</item>
+        <item name="android:windowActionModeOverlay">true</item>
+    </style>
+</resources>

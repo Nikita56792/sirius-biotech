@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eventicious.ui.schedule.common.view.regular.RegularScheduleFillerView android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content" app:cornerRadius="0.0dip" style="@style/Widget.Eventicious.Schedule.Card.Transparent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iconView" android:layout_width="14.0dip" android:layout_height="14.0dip" android:layout_marginTop="14.0dip" app:dynamicImageTint="eventTheme" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:id="@id/titleView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:layout_marginBottom="12.0dip" android:textAlignment="viewStart" android:layout_marginEnd="18.0dip" app:dynamicTextColor="eventTheme" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" style="@style/Widget.Eventicious.SessionItem.Title.Filler" />
+</com.eventicious.ui.schedule.common.view.regular.RegularScheduleFillerView>

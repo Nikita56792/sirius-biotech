@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/icon_back_24" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Eventicious.ContentCard">
+        <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <TextView android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/common_content_empty" app:drawableTopCompat="@drawable/placeholder_no_content" style="@style/Widget.Eventicious.Text.Placeholder" />
+        </LinearLayout>
+        <include android:id="@id/error" android:visibility="gone" layout="@layout/error_layout" />
+        <include android:id="@android:id/progress" layout="@layout/progress_layout" />
+    </FrameLayout>
+</merge>

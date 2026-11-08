@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.swiperefreshlayout.widget.SwipeLayout android:id="@id/refreshView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/postsView" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    </androidx.swiperefreshlayout.widget.SwipeLayout>
+    <com.google.android.material.button.MaterialButton android:textSize="13.0dip" android:textColor="?colorOnSurfaceVariant" android:layout_gravity="center|top" android:id="@id/scrollUpButton" android:paddingLeft="12.0dip" android:paddingTop="4.0dip" android:paddingRight="12.0dip" android:paddingBottom="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/feeds_to_the_top" android:insetTop="8.0dip" android:insetBottom="8.0dip" android:alpha="0.0" android:backgroundTint="?colorSurface" android:paddingHorizontal="12.0dip" android:paddingVertical="4.0dip" app:icon="@drawable/icon_up_16" app:iconSize="12.0dip" app:iconTint="?colorOnSurfaceVariant" app:shapeAppearance="@style/ShapeAppearance.Material3.Corner.Full" app:strokeColor="?colorOutlineVariant" style="?materialButtonOutlinedStyle" />
+    <FrameLayout android:layout_gravity="end|bottom" android:id="@id/scrollDownView" android:visibility="gone" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:alpha="0.0">
+        <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/scrollDownButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="10.0dip" app:fabSize="mini" app:srcCompat="@drawable/icon_arrow_down_24" app:useCompatPadding="false" />
+        <TextView android:textSize="10.0sp" android:textStyle="bold" android:textColor="?colorOnPrimary" android:gravity="center" android:layout_gravity="end|top" android:id="@id/badgeView" android:background="?colorPrimary" android:paddingLeft="4.0dip" android:paddingRight="4.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="5.0dip" android:minWidth="18.0dip" android:minHeight="18.0dip" android:alpha="0.0" android:layout_marginEnd="5.0dip" android:elevation="6.0dip" android:paddingHorizontal="4.0dip" app:cornerRadius="10.0dip" app:dynamicBackground="eventColor" />
+    </FrameLayout>
+    <include android:id="@id/error" android:visibility="gone" layout="@layout/error_layout" />
+    <include android:id="@android:id/empty" android:visibility="gone" layout="@layout/empty_layout" />
+    <include android:id="@android:id/progress" layout="@layout/progress_layout" />
+</merge>

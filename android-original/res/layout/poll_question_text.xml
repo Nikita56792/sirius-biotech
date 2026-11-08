@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.textfield.TextInputLayout android:layout_width="fill_parent" android:layout_height="wrap_content" app:boxBackgroundColor="?colorSurfaceContainerHighest" app:boxCornerRadiusBottomEnd="8.0dip" app:boxCornerRadiusBottomStart="8.0dip" app:boxCornerRadiusTopEnd="8.0dip" app:boxCornerRadiusTopStart="8.0dip" app:boxStrokeColor="?colorOutline" app:boxStrokeWidth="0.0dip" app:boxStrokeWidthFocused="1.5dip" app:counterEnabled="true" app:counterMaxLength="1500" app:hintEnabled="false" style="?textInputOutlinedStyle"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.textfield.TextInputEditText android:gravity="start|top" android:layout_width="fill_parent" android:layout_height="wrap_content" android:hint="@string/poll_text_hint" android:minLines="5" android:singleLine="false" android:maxLength="1500" android:inputType="textCapSentences|textMultiLine" android:importantForAutofill="no" app:lineHeight="22.0sp" />
+</com.google.android.material.textfield.TextInputLayout>

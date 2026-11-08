@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iconView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginStart="12.0dip" app:layout_constraintBottom_toBottomOf="@id/valueView" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/valueView" app:srcCompat="@drawable/icon_clock_16" style="@style/Widget.Eventicious.Icon.Round" />
+    <TextView android:textAppearance="?textAppearanceBodyLarge" android:gravity="start|center" android:id="@id/valueView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_margin="12.0dip" android:minHeight="24.0dip" android:textAlignment="viewStart" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iconView" app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

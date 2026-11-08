@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/icon_back_24" />
+    <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:paddingLeft="10.0dip" android:paddingRight="10.0dip" android:paddingBottom="10.0dip" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" android:paddingHorizontal="10.0dip" app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+    <FrameLayout android:id="@id/progress" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" style="@style/Widget.Eventicious.ContentCard">
+        <include android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/progress_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/error" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" style="@style/Widget.Eventicious.ContentCard">
+        <include android:id="@id/errorLayout" android:visibility="visible" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/error_layout" />
+    </FrameLayout>
+    <FrameLayout android:id="@id/empty" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" style="@style/Widget.Eventicious.ContentCard">
+        <TextView android:gravity="center" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/polls_no_data" />
+    </FrameLayout>
+</merge>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="15.0sp" android:textStyle="bold" android:textColor="?colorOnPrimary" android:gravity="center" android:id="@id/monthView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:includeFontPadding="false" android:paddingEnd="16.0dip" app:drawableEndCompat="@drawable/icon_arrow_dropdown_24" app:drawableStartCompat="@drawable/icon_calendar_32_small" app:drawableTint="?colorOnPrimary" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+</merge>

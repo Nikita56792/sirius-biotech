@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" android:alpha="0.0" app:navigationIcon="@drawable/icon_back_24" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Eventicious.ContentCard">
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/sessionsRecyclerView" android:paddingBottom="16.0dip" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+        <TextView android:textSize="16.0sp" android:textColor="?colorOnSurfaceVariant" android:gravity="center" android:layout_gravity="center" android:id="@id/emptyView" android:paddingLeft="24.0dip" android:paddingRight="24.0dip" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_content_empty" android:paddingHorizontal="24.0dip" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</merge>

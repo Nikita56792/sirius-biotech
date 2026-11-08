@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:gravity="center" android:orientation="vertical" android:background="?selectableItemBackgroundBorderless" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <TextView android:textSize="14.0sp" android:textStyle="bold" android:textColor="@color/calendar_day_text" android:gravity="center" android:id="@id/dayView" android:background="@drawable/calendar_day_background" android:layout_width="32.0dip" android:layout_height="32.0dip" app:dynamicBackgroundTint="eventColor" />
+    <android.view.View android:id="@id/indicatorView" android:background="@drawable/circle" android:visibility="invisible" android:layout_width="8.0dip" android:layout_height="8.0dip" android:layout_margin="2.0dip" app:dynamicBackgroundTint="eventColor" />
+</LinearLayout>

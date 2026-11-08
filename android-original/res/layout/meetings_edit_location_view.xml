@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/icon_back_24" app:title="@string/meetings_locations_new" />
+    <FrameLayout android:id="@id/content" android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Eventicious.ContentCard">
+        <EditText android:textSize="16.0sp" android:textColor="?colorOnSurface" android:gravity="top" android:id="@id/locationInput" android:background="@null" android:paddingLeft="16.0dip" android:paddingTop="12.0dip" android:paddingRight="16.0dip" android:paddingBottom="12.0dip" android:layout_width="fill_parent" android:layout_height="fill_parent" android:maxLength="250" android:lineSpacingExtra="6.0sp" android:alpha="0.0" android:paddingHorizontal="16.0dip" android:paddingVertical="12.0dip" android:importantForAutofill="no" />
+    </FrameLayout>
+</merge>

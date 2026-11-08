@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.checkbox.MaterialCheckBox android:layout_gravity="center" android:id="@id/checkbox" android:background="@null" android:focusable="false" android:clickable="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:minWidth="0.0dip" android:minHeight="0.0dip" app:buttonCompat="@drawable/icon_favorite_24" app:buttonTint="@color/favorite_button_tint" />
+</merge>

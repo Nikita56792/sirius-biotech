@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Button android:textSize="16.0sp" android:textColor="?colorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" android:text="@string/meetings_intervals_settings" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:layout_marginStart="12.0dip" android:layout_marginEnd="12.0dip" app:backgroundTint="?colorSurfaceVariant" app:icon="@drawable/icon_time_16" app:iconTint="?colorPrimary" app:rippleColor="?colorControlHighlight"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" />

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SbsLaunchTheme" parent="android:style/Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">#eeeef4</item>
+        <item name="android:windowSplashScreenBackground">#eeeef4</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/sbs_launch_empty</item>
+        <item name="android:windowSplashScreenAnimationDuration">0</item>
+    </style>
+</resources>

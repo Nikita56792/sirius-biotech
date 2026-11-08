@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="chat_colors">
+        <item>#ffff8787</item>
+        <item>#fff783ac</item>
+        <item>#ffda77f2</item>
+        <item>#ff9775fa</item>
+        <item>#ff748ffc</item>
+        <item>#ff4dadf7</item>
+        <item>#ff3bc9db</item>
+        <item>#ff38d9a9</item>
+        <item>#ff69db7c</item>
+        <item>#ffa9e34b</item>
+        <item>#ffffd43b</item>
+        <item>#ffffa94d</item>
+        <item>#ffc92a2a</item>
+        <item>#ffa61e4d</item>
+        <item>#ff862e9c</item>
+        <item>#ff5f3dc4</item>
+        <item>#ff364fc7</item>
+        <item>#ff1862ab</item>
+        <item>#ff0b7285</item>
+        <item>#ff087f5b</item>
+        <item>#ff2b8a3e</item>
+        <item>#ff5c940d</item>
+        <item>#ffe67700</item>
+        <item>#ffd9480f</item>
+        <item>#ffff8787</item>
+    </array>
+    <string-array name="exo_controls_playback_speeds">
+        <item>0.25x</item>
+        <item>0.5x</item>
+        <item>0.75x</item>
+        <item>Normal</item>
+        <item>1.25x</item>
+        <item>1.5x</item>
+        <item>2x</item>
+    </string-array>
+</resources>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eventicious.ui.recycler.modules.ExpandableTextLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.widget.TextView android:textAppearance="?textAppearanceBodyLarge" android:ellipsize="end" android:id="@android:id/text1" android:layout_width="fill_parent" android:layout_height="wrap_content" android:maxLines="8" android:textAlignment="viewStart" app:lineHeight="24.0sp" app:scrollEnabled="false" />
+    <TextView android:textAppearance="?textAppearanceBodyLarge" android:textColor="?colorPrimary" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/common_show_more" />
+</com.eventicious.ui.recycler.modules.ExpandableTextLayout>

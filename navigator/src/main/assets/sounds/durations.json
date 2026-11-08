@@ -1,0 +1,573 @@
+{
+ "1": {
+  "0.mp3": 0.559
+ },
+ "10": {
+  "0.mp3": 0.604
+ },
+ "100": {
+  "0.mp3": 0.476
+ },
+ "10th": {
+  "0.mp3": 0.892
+ },
+ "11": {
+  "0.mp3": 0.764
+ },
+ "11th": {
+  "0.mp3": 0.855
+ },
+ "12": {
+  "0.mp3": 0.804
+ },
+ "12th": {
+  "0.mp3": 0.94
+ },
+ "13": {
+  "0.mp3": 0.703
+ },
+ "14": {
+  "0.mp3": 0.831
+ },
+ "15": {
+  "0.mp3": 0.708
+ },
+ "16": {
+  "0.mp3": 0.796
+ },
+ "17": {
+  "0.mp3": 0.772
+ },
+ "18": {
+  "0.mp3": 0.847
+ },
+ "19": {
+  "0.mp3": 0.889
+ },
+ "1st": {
+  "0.mp3": 0.607
+ },
+ "2": {
+  "0.mp3": 0.473
+ },
+ "20": {
+  "0.mp3": 0.716
+ },
+ "200": {
+  "0.mp3": 0.679
+ },
+ "2nd": {
+  "0.mp3": 0.652
+ },
+ "3": {
+  "0.mp3": 0.324
+ },
+ "30": {
+  "0.mp3": 0.583
+ },
+ "300": {
+  "0.mp3": 0.588
+ },
+ "3rd": {
+  "0.mp3": 0.628
+ },
+ "4": {
+  "0.mp3": 0.591
+ },
+ "40": {
+  "0.mp3": 0.585
+ },
+ "400": {
+  "0.mp3": 0.756
+ },
+ "4th": {
+  "0.mp3": 0.876
+ },
+ "5": {
+  "0.mp3": 0.417
+ },
+ "50": {
+  "0.mp3": 0.644
+ },
+ "500": {
+  "0.mp3": 0.545
+ },
+ "5th": {
+  "0.mp3": 0.559
+ },
+ "6": {
+  "0.mp3": 0.532
+ },
+ "60": {
+  "0.mp3": 0.772
+ },
+ "600": {
+  "0.mp3": 0.649
+ },
+ "6th": {
+  "0.mp3": 0.74
+ },
+ "7": {
+  "0.mp3": 0.473
+ },
+ "70": {
+  "0.mp3": 0.743
+ },
+ "700": {
+  "0.mp3": 0.649
+ },
+ "7th": {
+  "0.mp3": 0.724
+ },
+ "8": {
+  "0.mp3": 0.631
+ },
+ "80": {
+  "0.mp3": 0.849
+ },
+ "800": {
+  "0.mp3": 0.761
+ },
+ "8th": {
+  "0.mp3": 0.745
+ },
+ "9": {
+  "0.mp3": 0.588
+ },
+ "90": {
+  "0.mp3": 0.852
+ },
+ "900": {
+  "0.mp3": 0.772
+ },
+ "9th": {
+  "0.mp3": 0.839
+ },
+ "AccessAhead": {
+  "0.mp3": 1.518
+ },
+ "AccessDaysMonThu": {
+  "0.mp3": 1.73
+ },
+ "AccessFreeIntro": {
+  "0.mp3": 1.879
+ },
+ "AccessNeedBasic": {
+  "0.mp3": 1.832
+ },
+ "AccessNeedExtended": {
+  "0.mp3": 2.073
+ },
+ "AccessTime11to13": {
+  "0.mp3": 1.922
+ },
+ "AccessTimeAnd14to16": {
+  "0.mp3": 2.462
+ },
+ "Accident": {
+  "0.mp3": 0.66,
+  "1.mp3": 1.815,
+  "2.mp3": 2.271
+ },
+ "Ahead": {
+  "0.mp3": 0.133
+ },
+ "AndMiddle": {
+  "0.mp3": 0.764
+ },
+ "AndRight": {
+  "0.mp3": 0.719
+ },
+ "AtFifthExit": {
+  "0.mp3": 1.056
+ },
+ "AtFirstExit": {
+  "0.mp3": 1.091
+ },
+ "AtFourthExit": {
+  "0.mp3": 1.218
+ },
+ "AtLeft": {
+  "0.mp3": 0.681
+ },
+ "AtMiddle": {
+  "0.mp3": 0.756
+ },
+ "AtRight": {
+  "0.mp3": 0.74
+ },
+ "AtSecondExit": {
+  "0.mp3": 1.033
+ },
+ "AtThirdExit": {
+  "0.mp3": 1.102
+ },
+ "Begin": {
+  "0.mp3": 0.652
+ },
+ "BoardFerry": {
+  "0.mp3": 1.271
+ },
+ "CameraInBack": {
+  "0.mp3": 0.573
+ },
+ "CameraInBothDirections": {
+  "0.mp3": 1.3
+ },
+ "ConnEscalatorDown": {
+  "0.mp3": 1.873
+ },
+ "ConnEscalatorUp": {
+  "0.mp3": 2.179
+ },
+ "ConnLiftDown": {
+  "0.mp3": 1.506
+ },
+ "ConnLiftUp": {
+  "0.mp3": 1.453
+ },
+ "ContinueStraight": {
+  "0.mp3": 1.114
+ },
+ "CrossRoadCamera": {
+  "0.mp3": 2.407
+ },
+ "Crosswalk": {
+  "0.mp3": 1.079
+ },
+ "Danger": {
+  "0.mp3": 0.244
+ },
+ "DangerCrossroadAhead": {
+  "0.mp3": 1.769
+ },
+ "DangerousRoads": {
+  "0.mp3": 1.804
+ },
+ "Exit": {
+  "0.mp3": 0.657
+ },
+ "FasterRouteAvailable": {
+  "0.mp3": 1.852,
+  "1.mp3": 1.511,
+  "2.mp3": 1.425,
+  "3.mp3": 1.759
+ },
+ "FloorTo1": {
+  "0.mp3": 1.428
+ },
+ "FloorTo2": {
+  "0.mp3": 1.291
+ },
+ "FloorTo3": {
+  "0.mp3": 1.441
+ },
+ "FloorTo4": {
+  "0.mp3": 1.489
+ },
+ "FloorTo5": {
+  "0.mp3": 1.188
+ },
+ "FloorToAttic": {
+  "0.mp3": 0.83
+ },
+ "FloorToBasement": {
+  "0.mp3": 0.732
+ },
+ "FloorToRoof": {
+  "0.mp3": 0.818
+ },
+ "ForbiddenStopCamera": {
+  "0.mp3": 1.825
+ },
+ "Forward": {
+  "0.mp3": 0.535
+ },
+ "HardTurnLeft": {
+  "0.mp3": 1.513
+ },
+ "HardTurnRight": {
+  "0.mp3": 1.604
+ },
+ "InCircularMovement": {
+  "0.mp3": 1.289
+ },
+ "IntoOverpass": {
+  "0.mp3": 1.845
+ },
+ "IntoUnderpass": {
+  "0.mp3": 1.915
+ },
+ "Kilometer": {
+  "0.mp3": 0.652
+ },
+ "Kilometers": {
+  "0.mp3": 0.793
+ },
+ "Kilometers2_4": {
+  "0.mp3": 0.732
+ },
+ "LandmarkAfterBridge": {
+  "0.mp3": 0.849
+ },
+ "LandmarkAfterTunnel": {
+  "0.mp3": 0.969
+ },
+ "LandmarkAtTrafficLights": {
+  "0.mp3": 1.129
+ },
+ "LandmarkBeforeBridge": {
+  "0.mp3": 0.863
+ },
+ "LandmarkBeforeTrafficLights": {
+  "0.mp3": 1.076
+ },
+ "LandmarkBeforeTunnel": {
+  "0.mp3": 0.972
+ },
+ "LandmarkIntoCourtyard": {
+  "0.mp3": 0.631
+ },
+ "LandmarkIntoTunnel": {
+  "0.mp3": 0.636
+ },
+ "LandmarkToBridge": {
+  "0.mp3": 0.705
+ },
+ "LandmarkToFrontageRoad": {
+  "0.mp3": 0.681
+ },
+ "LaneCamera": {
+  "0.mp3": 1.713
+ },
+ "LeftTurn": {
+  "0.mp3": 0.905
+ },
+ "Meter": {
+  "0.mp3": 0.543
+ },
+ "Meters": {
+  "0.mp3": 0.623
+ },
+ "Meters2_4": {
+  "0.mp3": 0.625
+ },
+ "MobileCamera": {
+  "0.mp3": 3.329
+ },
+ "OneAndHalf": {
+  "0.mp3": 0.655
+ },
+ "OutOfOverpass": {
+  "0.mp3": 1.985
+ },
+ "OutOfUnderpass": {
+  "0.mp3": 1.961
+ },
+ "Over": {
+  "0.mp3": 0.529
+ },
+ "OvertakingDanger": {
+  "0.mp3": 2.063
+ },
+ "ParkingRouteCalculated": {
+  "0.mp3": 1.727
+ },
+ "PedestrianRouteFinished": {
+  "0.mp3": 0.73
+ },
+ "PedestrianWaypointPassed": {
+  "0.mp3": 2.077
+ },
+ "PedestriansAhead": {
+  "0.mp3": 2.471
+ },
+ "PolicePatrol": {
+  "0.mp3": 1.253
+ },
+ "Reconstruction": {
+  "0.mp3": 1.151
+ },
+ "RightTurn": {
+  "0.mp3": 0.94
+ },
+ "RoadMarkingCamera": {
+  "0.mp3": 1.993
+ },
+ "RouteAroundClosure": {
+  "0.mp3": 2.947
+ },
+ "RouteCalculated": {
+  "0.mp3": 1.34,
+  "1.mp3": 1.697,
+  "2.mp3": 1.545
+ },
+ "RouteFinished": {
+  "0.mp3": 1.001,
+  "1.mp3": 2.012,
+  "2.mp3": 1.687,
+  "3.mp3": 3.321,
+  "4.mp3": 1.836,
+  "5.mp3": 1.655,
+  "6.mp3": 3.097,
+  "7.mp3": 2.023
+ },
+ "RouteLost": {
+  "0.mp3": 1.303,
+  "1.mp3": 2.244
+ },
+ "RouteRecalculated": {
+  "0.mp3": 1.471,
+  "1.mp3": 2.017,
+  "2.mp3": 1.844
+ },
+ "RouteReturn": {
+  "0.mp3": 1.487,
+  "1.mp3": 2.089,
+  "2.mp3": 1.905
+ },
+ "RouteUpdatedToTollRoad": {
+  "0.mp3": 4.076
+ },
+ "RouteViaPoint": {
+  "0.mp3": 2.207,
+  "1.mp3": 2.124,
+  "2.mp3": 3.313,
+  "3.mp3": 1.868,
+  "4.mp3": 1.017,
+  "5.mp3": 2.377
+ },
+ "RouteWillFinish": {
+  "0.mp3": 1.833,
+  "1.mp3": 2.329,
+  "2.mp3": 2.137
+ },
+ "Row": {
+  "0.mp3": 0.439
+ },
+ "SchoolAhead": {
+  "0.mp3": 2.22
+ },
+ "Speed100": {
+  "0.mp3": 0.612
+ },
+ "Speed110": {
+  "0.mp3": 0.948
+ },
+ "Speed120": {
+  "0.mp3": 1.007
+ },
+ "Speed130": {
+  "0.mp3": 0.919
+ },
+ "Speed30": {
+  "0.mp3": 0.847
+ },
+ "Speed40": {
+  "0.mp3": 0.783
+ },
+ "Speed50": {
+  "0.mp3": 0.889
+ },
+ "Speed60": {
+  "0.mp3": 0.916
+ },
+ "Speed70": {
+  "0.mp3": 0.919
+ },
+ "Speed80": {
+  "0.mp3": 0.967
+ },
+ "Speed90": {
+  "0.mp3": 0.951
+ },
+ "SpeedCamera": {
+  "0.mp3": 1.079,
+  "1.mp3": 2.161,
+  "2.mp3": 1.913
+ },
+ "SpeedLimitAhead": {
+  "0.mp3": 2.114
+ },
+ "Stairs": {
+  "0.mp3": 1.334
+ },
+ "StairsDown": {
+  "0.mp3": 1.393
+ },
+ "StairsUp": {
+  "0.mp3": 1.351
+ },
+ "TakeLeft": {
+  "0.mp3": 1.191
+ },
+ "TakeLeftLane": {
+  "0.mp3": 1.567
+ },
+ "TakeLeftLanes": {
+  "0.mp3": 1.567
+ },
+ "TakeMiddleLane": {
+  "0.mp3": 1.601
+ },
+ "TakeMiddleLanes": {
+  "0.mp3": 1.753
+ },
+ "TakeRight": {
+  "0.mp3": 1.321
+ },
+ "TakeRightLane": {
+  "0.mp3": 1.543
+ },
+ "TakeRightLanes": {
+  "0.mp3": 1.532
+ },
+ "TakeSecondLeftLane": {
+  "0.mp3": 1.973
+ },
+ "TakeSecondRightLane": {
+  "0.mp3": 1.985
+ },
+ "TakeThirdLeftLane": {
+  "0.mp3": 1.938
+ },
+ "TakeThirdRightLane": {
+  "0.mp3": 1.961
+ },
+ "TakeThreeLeftLanes": {
+  "0.mp3": 1.776
+ },
+ "TakeThreeRightLanes": {
+  "0.mp3": 1.799
+ },
+ "TakeTwoLeftLanes": {
+  "0.mp3": 1.764
+ },
+ "TakeTwoRightLanes": {
+  "0.mp3": 1.764
+ },
+ "Then": {
+  "0.mp3": 0.7
+ },
+ "TollRoadAhead": {
+  "0.mp3": 1.729
+ },
+ "TrafficCamera": {
+  "0.mp3": 1.81
+ },
+ "TrafficJam": {
+  "0.mp3": 0.565
+ },
+ "TurnBack": {
+  "0.mp3": 0.932
+ },
+ "TurnLeft": {
+  "0.mp3": 1.148
+ },
+ "TurnRight": {
+  "0.mp3": 1.231
+ },
+ "WalkStraight": {
+  "0.mp3": 0.868
+ }
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.eventicious.ui.schedule.common.view.regular.RegularScheduleAdvImageView android:layout_width="fill_parent" android:layout_height="wrap_content" style="@style/Widget.Eventicious.Schedule.Card.Solid"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ImageView android:id="@id/gradientView" android:layout_width="fill_parent" android:layout_height="56.0dip" />
+    <ImageView android:id="@id/imageView" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+</com.eventicious.ui.schedule.common.view.regular.RegularScheduleAdvImageView>

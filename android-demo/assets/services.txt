@@ -1,0 +1,14 @@
+analytics.firebase: on
+analytics.appmetrica: on
+appupdate: none
+auth.gazprom: off
+auth.google: off
+auth.vk: off
+maps.google: on
+maps.vk: on
+notifications.azure: off
+notifications.eventicious: on
+notifications.firebase: on
+recaptcha: on
+sentry: on
+zoom: off

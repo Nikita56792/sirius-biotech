@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginTop="10.0dip" style="@style/Widget.Eventicious.ContentCard">
+        <com.eventicious.ui.view.SearchInputView android:id="@android:id/input" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <androidx.recyclerview.widget.RecyclerView android:id="@android:id/list" android:clipToPadding="false" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@android:id/input" />
+        <FrameLayout android:id="@android:id/progress" android:background="?colorSurface" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" android:backgroundTint="@color/surface_60" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@android:id/list">
+            <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+        </FrameLayout>
+        <TextView android:id="@android:id/empty" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/catalog_search_placeholder" app:drawableTint="?colorOutline" app:drawableTopCompat="@drawable/icon_search_96" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@android:id/list" app:layout_constraintVertical_bias="0.2" style="@style/Widget.Eventicious.Text.Placeholder" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</merge>

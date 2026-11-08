@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" />
+            <size android:height="28.0dip" android:width="28.0dip" />
+        </shape>
+    </item>
+    <item android:gravity="center" android:id="@id/toolbar_icon" android:drawable="@drawable/icon_menu_24" />
+    <item android:gravity="end|top" android:id="@id/toolbar_icon_badge">
+        <shape android:shape="rectangle">
+            <solid android:color="#00000000" />
+            <size android:height="10.0dip" android:width="10.0dip" />
+        </shape>
+    </item>
+</layer-list>

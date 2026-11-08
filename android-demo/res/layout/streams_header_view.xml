@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/eventImage" android:layout_width="195.0dip" android:layout_height="95.0dip" android:layout_marginTop="8.0dip" android:scaleType="centerInside" />
+    <TextView android:textSize="16.0sp" android:ellipsize="end" android:gravity="center" android:id="@id/eventName" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginLeft="20.0dip" android:layout_marginTop="8.0dip" android:layout_marginRight="20.0dip" android:maxLines="3" android:lines="3" android:fontFamily="@string/font_medium" android:layout_marginHorizontal="20.0dip" app:dynamicTextColor="eventTheme" app:lineHeight="21.0sp" />
+</merge>

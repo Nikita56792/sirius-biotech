@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="rectangle">
+            <solid android:color="@color/ev_sys_surfaceContainerHighest" />
+            <size android:height="1000.0dip" android:width="1000.0dip" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/icon_image_32" android:left="440.0dip" android:top="440.0dip" android:right="440.0dip" android:bottom="440.0dip" />
+</layer-list>

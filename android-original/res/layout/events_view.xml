@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.google.android.material.appbar.AppBarLayout android:id="@id/appbarLayout" android:background="@color/transparent" android:layout_width="fill_parent" android:layout_height="176.0dip" app:elevation="0.0dip" app:liftOnScrollColor="@color/transparent">
+            <com.google.android.material.appbar.CollapsingToolbarLayout android:id="@id/collapsingToolbarLayout" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_scrollFlags="scroll|exitUntilCollapsed">
+                <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="120.0dip" app:dynamicTint="applicationTheme" app:layout_collapseMode="pin" />
+                <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:layout_marginBottom="10.0dip" android:layout_marginHorizontal="10.0dip">
+                    <FrameLayout android:layout_gravity="bottom" android:id="@id/searchButton" android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cornerRadius="8.0dip" app:dynamicBackgroundTint="applicationTheme" app:dynamicBackgroundTintTransformer="com.eventicious.ui.dynamic.TransformerTransparentViewBackgroundTintTheme">
+                        <TextView android:textSize="14.0sp" android:gravity="center" android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="16.0dip" android:text="@string/events_search_hint" android:drawablePadding="4.0dip" app:drawableStartCompat="@drawable/icon_search_16" app:dynamicCompoundDrawableTint="applicationTheme" app:dynamicText="app.events.searchHint" app:dynamicTextColor="applicationTheme" />
+                    </FrameLayout>
+                </FrameLayout>
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+        <androidx.recyclerview.widget.RecyclerView android:id="@id/eventRecyclerView" android:paddingBottom="10.0dip" android:visibility="invisible" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_behavior="@string/appbar_scrolling_view_behavior" />
+        <TextView android:gravity="center" android:layout_gravity="center" android:id="@id/emptyView" android:visibility="gone" android:layout_width="205.0dip" android:layout_height="wrap_content" android:text="@string/events_placeholder" android:drawablePadding="10.0dip" app:drawableTopCompat="@drawable/icon_mailbox_96" app:dynamicText="app.events.placeholder" style="@style/Widget.Eventicious.Events.EmptyView" />
+        <include android:layout_gravity="bottom" android:id="@id/advertisementView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="48.0dip" layout="@layout/app_advertisement_view" />
+        <com.eventicious.multievent.ui.list.EventsLoadingView android:layout_gravity="center" android:id="@id/loadingView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:foreground="?selectableItemBackground" app:cornerRadius="8.0dip" app:dynamicTint="applicationTheme" />
+        <ImageView android:layout_gravity="center_horizontal" android:id="@id/headerImageView" android:paddingTop="10.0dip" android:paddingBottom="10.0dip" android:layout_width="fill_parent" android:layout_height="120.0dip" android:scaleType="fitCenter" app:layout_behavior="com.eventicious.multievent.ui.list.EventsViewLogoBehavior" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</merge>

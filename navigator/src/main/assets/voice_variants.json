@@ -1,0 +1,158 @@
+{
+ "about": "Voice variants: per event, options {key, file, w (weight), default, minRoute (m), rare}. The default (plain) option may repeat back to back; any other option is never picked twice in a row, and the long-run frequencies match the weights. A rare option is tried first with its chance, at most once per day, only on routes >= rare.minRoute m or (orFloorChange) with a floor change. text = what the recording says (logs / screen).",
+ "events": {
+  "RouteCalculated": [
+   {
+    "key": "RouteCalculated",
+    "file": "0.mp3",
+    "w": 0.7,
+    "text": "маршрут построен",
+    "default": true
+   },
+   {
+    "key": "RouteCalculated",
+    "file": "1.mp3",
+    "w": 0.15,
+    "text": "маршрут построен (вариант 2)"
+   },
+   {
+    "key": "RouteCalculated",
+    "file": "2.mp3",
+    "w": 0.15,
+    "text": "маршрут построен (вариант 3)"
+   }
+  ],
+  "RouteRecalculated": [
+   {
+    "key": "RouteRecalculated",
+    "file": "0.mp3",
+    "w": 0.6,
+    "text": "маршрут перестроен",
+    "default": true
+   },
+   {
+    "key": "RouteRecalculated",
+    "file": "1.mp3",
+    "w": 0.3,
+    "text": "нашла новый путь, мне не сложно"
+   },
+   {
+    "key": "RouteRecalculated",
+    "file": "2.mp3",
+    "w": 0.1,
+    "text": "есть новый маршрут, едем"
+   }
+  ],
+  "FasterRouteAvailable": [
+   {
+    "key": "FasterRouteAvailable",
+    "file": "0.mp3",
+    "w": 0.4,
+    "text": "найден более быстрый маршрут",
+    "default": true
+   },
+   {
+    "key": "FasterRouteAvailable",
+    "file": "1.mp3",
+    "w": 0.2,
+    "text": "более быстрый маршрут (вариант 2)"
+   },
+   {
+    "key": "FasterRouteAvailable",
+    "file": "2.mp3",
+    "w": 0.2,
+    "text": "более быстрый маршрут (вариант 3)"
+   },
+   {
+    "key": "FasterRouteAvailable",
+    "file": "3.mp3",
+    "w": 0.2,
+    "text": "более быстрый маршрут (вариант 4)"
+   }
+  ],
+  "RouteWillFinish": [
+   {
+    "key": "RouteWillFinish",
+    "file": "0.mp3",
+    "w": 0.6,
+    "text": "до конца маршрута осталось",
+    "default": true
+   },
+   {
+    "key": "RouteWillFinish",
+    "file": "2.mp3",
+    "w": 0.25,
+    "text": "почти на месте, до конца маршрута"
+   },
+   {
+    "key": "RouteWillFinish",
+    "file": "1.mp3",
+    "w": 0.15,
+    "text": "сложила и вычла, до конца маршрута"
+   }
+  ],
+  "Arrival": [
+   {
+    "key": "PedestrianRouteFinished",
+    "file": "0.mp3",
+    "w": 0.3,
+    "text": "вы пришли",
+    "default": true
+   },
+   {
+    "key": "RouteFinished",
+    "file": "0.mp3",
+    "w": 0.1,
+    "text": "вы приехали"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "1.mp3",
+    "w": 0.12,
+    "text": "приехали, спасибо за компанию"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "5.mp3",
+    "w": 0.12,
+    "text": "мы на месте, до связи"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "4.mp3",
+    "w": 0.1,
+    "text": "приехали, мне понравилось"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "7.mp3",
+    "w": 0.08,
+    "text": "приехали, люблю быть штурманом"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "6.mp3",
+    "w": 0.08,
+    "minRoute": 100,
+    "text": "приехали, возвращайтесь, мне с вами понравилось"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "2.mp3",
+    "w": 0.06,
+    "text": "на этом всё, отключаюсь"
+   },
+   {
+    "key": "RouteFinished",
+    "file": "3.mp3",
+    "w": 0,
+    "rare": {
+     "chance": 0.05,
+     "minRoute": 150,
+     "orFloorChange": true
+    },
+    "text": "здесь была шутка, но редактор её запретил. приехали"
+   }
+  ]
+ }
+}

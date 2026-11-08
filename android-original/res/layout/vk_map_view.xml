@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.constraintlayout.widget.ConstraintLayout android:background="?colorSurface" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <FrameLayout android:id="@id/mapViewContainer" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+            <com.google.android.material.floatingactionbutton.FloatingActionButton android:id="@id/myLocationButton" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="16.0dip" android:scaleType="center" android:layout_marginEnd="16.0dip" app:fabSize="normal" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:srcCompat="@drawable/icon_location_24" />
+            <FrameLayout android:id="@id/loadingView" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+            </FrameLayout>
+            <FrameLayout android:id="@id/appbar" android:background="?colorSurface" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" android:backgroundTint="@color/surface_60" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:navigationIcon="@drawable/icon_back_24" />
+            </FrameLayout>
+            <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@id/errorView" android:visibility="gone" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent">
+                <TextView android:id="@id/errorDescriptionView" android:layout_width="fill_parent" android:layout_height="wrap_content" android:layout_marginBottom="12.0dip" android:text="@string/error_api" app:drawableTopCompat="@drawable/placeholder_server_error" style="@style/Widget.Eventicious.Text.Placeholder" />
+                <Button android:id="@id/refreshButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_refresh" style="?borderlessButtonStyle" />
+            </LinearLayout>
+        </androidx.constraintlayout.widget.ConstraintLayout>
+        <include android:id="@id/pinSheet" layout="@layout/map_pin_view" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</merge>

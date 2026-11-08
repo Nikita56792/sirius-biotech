@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:layout_gravity="center_horizontal" android:id="@id/errorImageView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:srcCompat="@drawable/icon_reload_48" />
+    <com.google.android.material.progressindicator.CircularProgressIndicator android:id="@id/progressIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" app:indicatorColor="?colorOnSurface" app:layout_constraintBottom_toBottomOf="@id/errorImageView" app:layout_constraintEnd_toEndOf="@id/errorImageView" app:layout_constraintStart_toStartOf="@id/errorImageView" app:layout_constraintTop_toTopOf="@id/errorImageView" />
+    <TextView android:textColor="?colorOnSurface" android:gravity="center" android:id="@id/descriptionView" android:visibility="invisible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="10.0dip" android:text="@string/common_content_no_connection" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/errorImageView" />
+</merge>

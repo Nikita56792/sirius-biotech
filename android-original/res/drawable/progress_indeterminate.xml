@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<animated-vector android:drawable="@drawable/$progress_indeterminate__0"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:aapt="http://schemas.android.com/aapt">
+    <target android:name="root" android:animation="@drawable/$progress_indeterminate__1" />
+    <target android:name="progressBar" android:animation="@drawable/$progress_indeterminate__2" />
+</animated-vector>

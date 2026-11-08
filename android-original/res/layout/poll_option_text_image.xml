@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.card.MaterialCardView android:layout_width="fill_parent" android:layout_height="wrap_content" app:cardCornerRadius="8.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.constraintlayout.widget.ConstraintLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <ImageView android:id="@android:id/icon" android:background="?colorSurfaceVariant" android:layout_width="0.0dip" android:layout_height="0.0dip" app:layout_constraintBottom_toTopOf="@android:id/title" app:layout_constraintDimensionRatio="16:9" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+        <ImageButton android:id="@id/imageFullScreen" android:background="@drawable/icon_fullscreen_background_48" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/icon_fullscreen_16" app:layout_constraintBottom_toBottomOf="@android:id/icon" app:layout_constraintEnd_toEndOf="@android:id/icon" />
+        <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:id="@android:id/title" android:background="?colorSurfaceContainerHighest" android:padding="16.0dip" android:layout_width="0.0dip" android:layout_height="wrap_content" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@android:id/icon" app:lineHeight="20.0sp" />
+        <ImageView android:id="@android:id/checkbox" android:layout_width="24.0dip" android:layout_height="24.0dip" android:layout_marginTop="10.0dip" android:layout_marginEnd="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</com.google.android.material.card.MaterialCardView>

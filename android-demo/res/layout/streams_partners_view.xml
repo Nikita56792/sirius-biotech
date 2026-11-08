@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:id="@id/container1" style="@style/Widget.Eventicious.Streams.Partner">
+        <ImageView android:id="@id/image1" style="@style/Widget.Eventicious.Streams.Partner.Image" />
+        <TextView android:id="@id/name1" style="@style/Widget.Eventicious.Streams.Partner.Name" />
+    </LinearLayout>
+    <LinearLayout android:id="@id/container2" style="@style/Widget.Eventicious.Streams.Partner">
+        <ImageView android:id="@id/image2" style="@style/Widget.Eventicious.Streams.Partner.Image" />
+        <TextView android:id="@id/name2" style="@style/Widget.Eventicious.Streams.Partner.Name" />
+    </LinearLayout>
+</merge>

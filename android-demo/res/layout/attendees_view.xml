@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Eventicious.ContentCard">
+        <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/refreshView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <androidx.recyclerview.widget.RecyclerView android:id="@id/attendeesView" android:visibility="gone" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+        <include android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" layout="@layout/attendees_empty_view" />
+        <com.eventicious.ui.view.ErrorView android:layout_gravity="center" android:id="@id/errorView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</merge>

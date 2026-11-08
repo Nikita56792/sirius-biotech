@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:contentInsetStartWithNavigation="16.0dip" app:navigationIcon="@drawable/toolbar_menu_icon">
+            <com.google.android.material.tabs.TabLayout android:id="@id/tabLayout" android:layout_width="wrap_content" android:layout_height="@dimen/tab_layout_height_compact" style="@style/Widget.Eventicious.TabLayout.Compact.Dynamic" />
+        </com.eventicious.toolbar.Toolbar>
+        <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <com.eventicious.widget.ViewPager android:id="@id/viewPager" android:clipChildren="false" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/toolbar" />
+            <TextView android:textSize="14.0sp" android:textColor="?colorOnSurface" android:gravity="center" android:id="@id/emptyView" android:background="?colorSurface" android:padding="48.0dip" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:text="@string/common_content_empty" />
+        </FrameLayout>
+    </LinearLayout>
+</merge>

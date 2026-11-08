@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:navigationIcon="@drawable/toolbar_menu_icon" />
+    <androidx.swiperefreshlayout.widget.SwipeRefreshLayout android:id="@id/chatsView" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.coordinatorlayout.widget.CoordinatorLayout android:id="@id/contentView" android:layout_width="fill_parent" android:layout_height="fill_parent" android:nestedScrollingEnabled="true">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" style="@style/Widget.Eventicious.ContentCard">
+                <androidx.recyclerview.widget.RecyclerView android:id="@id/itemsView" android:scrollbars="none" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+                <androidx.constraintlayout.widget.ConstraintLayout android:id="@id/emptyView" android:visibility="gone" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0">
+                    <ImageView android:id="@id/emptyIconView" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintBottom_toTopOf="@id/emptyTitleView" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" app:layout_constraintVertical_bias="0.405" app:layout_constraintVertical_chainStyle="packed" app:srcCompat="@drawable/icon_chat_48" app:tint="?colorOnSurfaceVariant" />
+                    <TextView android:textSize="14.0sp" android:textStyle="normal" android:textColor="?colorOnSurfaceVariant" android:gravity="center_horizontal" android:id="@id/emptyTitleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8.0dip" android:text="@string/chat_empty_state" android:fontFamily="sans-serif" app:layout_constraintBottom_toTopOf="@id/emptyAddButton" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/emptyIconView" />
+                    <Button android:id="@id/emptyAddButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="16.0dip" android:layout_marginTop="14.0dip" android:layout_marginRight="16.0dip" android:text="@string/chat_add" android:layout_marginHorizontal="16.0dip" app:layout_constraintBottom_toBottomOf="parent" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/emptyTitleView" />
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@id/progressView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+            </FrameLayout>
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+    </androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
+</merge>

@@ -18,12 +18,9 @@ app.find('activity').set(A+'screenOrientation','user')
 shutil.copytree(ROOT/'app/res',ROOT/'android-demo/res',dirs_exist_ok=True)
 t.write(p,encoding='utf-8',xml_declaration=True)
 xml=ROOT/'android-demo/res/xml/sirius_api_network.xml'
-(ROOT/'android-demo/res/raw').mkdir(exist_ok=True)
-shutil.copy2(ROOT/'app/network/school-ca.crt',ROOT/'android-demo/res/raw/sirius_school_ca.crt')
 xml.write_text('''<?xml version="1.0" encoding="utf-8"?>
 <network-security-config>
   <base-config cleartextTrafficPermitted="false"><trust-anchors><certificates src="system" /></trust-anchors></base-config>
-  <domain-config cleartextTrafficPermitted="false"><domain>10.82.10.8</domain><trust-anchors><certificates src="@raw/sirius_school_ca" /></trust-anchors></domain-config>
   <domain-config cleartextTrafficPermitted="true"><domain>127.0.0.1</domain><domain>localhost</domain></domain-config>
 </network-security-config>
 ''')

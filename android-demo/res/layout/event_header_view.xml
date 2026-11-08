@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iconView" android:layout_width="60.0dip" android:layout_height="60.0dip" android:layout_marginTop="8.0dip" android:layout_marginBottom="16.0dip" android:scaleType="centerCrop" android:minWidth="60.0dip" android:minHeight="60.0dip" android:layout_marginStart="10.0dip" app:cornerRadius="14.0dip" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="parent" />
+    <TextView android:textSize="16.0sp" android:textStyle="bold" android:gravity="start|center" android:id="@id/titleView" android:layout_width="0.0dip" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_marginRight="10.0dip" android:minHeight="60.0dip" android:includeFontPadding="false" android:textAlignment="viewStart" android:layout_marginHorizontal="10.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toEndOf="@id/iconView" app:layout_constraintTop_toTopOf="@id/iconView" />
+    <Space android:id="@id/bottomSpace" android:layout_width="0.0dip" android:layout_height="16.0dip" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/titleView" />
+</merge>

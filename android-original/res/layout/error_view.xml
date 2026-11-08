@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <ImageView android:id="@id/iconView" android:layout_width="200.0dip" android:layout_height="200.0dip" android:scaleType="center" app:layout_constraintBottom_toTopOf="@id/centerGuideline" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" />
+    <androidx.constraintlayout.widget.Guideline android:orientation="horizontal" android:id="@id/centerGuideline" android:layout_width="wrap_content" android:layout_height="wrap_content" app:layout_constraintGuide_percent="0.5" />
+    <TextView android:id="@id/titleView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="12.0dip" app:layout_constrainedWidth="true" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toTopOf="@id/centerGuideline" style="@style/Widget.Eventicious.Text.Placeholder" />
+    <Button android:id="@id/refreshButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_refresh" app:layout_constraintEnd_toEndOf="parent" app:layout_constraintStart_toStartOf="parent" app:layout_constraintTop_toBottomOf="@id/titleView" style="?borderlessButtonStyle" />
+</merge>

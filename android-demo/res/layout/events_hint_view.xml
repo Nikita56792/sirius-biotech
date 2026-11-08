@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.eventicious.toolbar.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:dynamicTint="applicationTheme" app:navigationIcon="@drawable/icon_back_24" app:title="@string/events_hint" />
+    <FrameLayout android:layout_width="fill_parent" android:layout_height="fill_parent" android:animateLayoutChanges="true" style="@style/Widget.Eventicious.ContentCard">
+        <androidx.recyclerview.widget.RecyclerView android:id="@android:id/hint" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.0" />
+        <com.google.android.material.progressindicator.CircularProgressIndicator android:layout_gravity="center" android:id="@android:id/progress" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" />
+    </FrameLayout>
+</merge>

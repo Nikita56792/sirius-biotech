@@ -1,0 +1,17 @@
+{
+  "schema": 1,
+  "name": "Сириус.Биотех",
+  "title": "Сириус.Биотех 2027",
+  "colors": {"background":"#eeeef4","ink":"#2c333b","accent":"#252650"},
+  "sections": [
+    {"id":"schedule","androidId":"Programme","labelRu":"Программа","labelEn":"Programme","drawable":"icon_calendar_16"},
+    {"id":"profile","androidId":"Profile","labelRu":"Профиль","labelEn":"Profile","drawable":"icon_profile_16"},
+    {"id":"people","androidId":"Participants","labelRu":"Участники","labelEn":"Participants","drawable":"icon_user_16"},
+    {"id":"inbox","androidId":"Messages","labelRu":"Сообщения","labelEn":"Messages","drawable":"icon_message_16"},
+    {"id":"meetings","androidId":"Meetings","labelRu":"Встречи","labelEn":"Meetings","drawable":"icon_meeting_16"},
+    {"id":"favorites","androidId":"My schedule","labelRu":"Моя программа","labelEn":"My schedule","drawable":"icon_star_16"},
+    {"id":"venue","androidId":"Venue","labelRu":"Карта площадки","labelEn":"Venue","drawable":"icon_map_16"},
+    {"id":"news","androidId":"News","labelRu":"Новости","labelEn":"News","drawable":"icon_news_16"},
+    {"id":"partners","androidId":"Partners","labelRu":"Партнёры","labelEn":"Partners","drawable":"icon_hand_16"}
+  ]
+}

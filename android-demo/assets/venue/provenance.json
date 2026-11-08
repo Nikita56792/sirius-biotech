@@ -1,0 +1,15 @@
+{
+  "source": "/Users/nikitasyzdykov/Desktop/mv/navigator/app/app/src/main/assets/map",
+  "source_site_id": "gmc",
+  "source_title": "НТУ «Сириус», Олимпийский пр., 1",
+  "source_readme": "navigator/app/README.md",
+  "decoder": "navigator/app/app/src/main/java/com/gmcnav/navi/MapData.kt:105",
+  "geometry": "Unmodified original little-endian float32 vertices, uint32 triangle indices, uint8 room RGB. JSON array header preceded by uint32 byte length; payload aligned to 4 bytes. Header offsets are byte offsets relative to payload.",
+  "coordinates": "Local metres, x right, y up. Absolute original plan coordinates = local + center [200,110]. Screen flips Y; no rotation or geometry edits.",
+  "labels": "Only original displayed label text, x, y, priority for floors 1 and 2. All description fields omitted to exclude staff names and office occupancy. No room occupant metadata, access rules, radios, sessions, replay, phone, cell, WiFi, location tracking or navigation grids copied. Display names remain Russian in either interface language because no authoritative English map labels exist.",
+  "identity": "Source identifies NTU Sirius, Olympic Ave 1, formerly GMC. This is not the Rekordov 15 residence. Summit location and event-specific room assignments are NOT confirmed by these files.",
+  "sha256": {
+    "floor1.bin": "004456d0315ef204a143b99b8af166c2c7c49f12a5d3e68f9a46710036a4a422",
+    "floor2.bin": "a9a540855e62040d30a3e0ab9de8b9ff971c0e8c57d3589beee3cef323ce2f42"
+  }
+}

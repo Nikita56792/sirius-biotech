@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths>
+    <external-cache-path name="logs" path="logs/" />
+    <files-path name="attachments" path="attachments/" />
+    <files-path name="photos" path="photos/" />
+    <files-path name="js-image-picker" path="js-image-picker/" />
+    <cache-path name="task-attachments" path="task-attachments/" />
+    <cache-path name="feeds-attachments" path="feeds-attachments/" />
+</paths>
