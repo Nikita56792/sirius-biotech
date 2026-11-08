@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- map ground (MapGLView clear colour): splash, window background and loading screens use it, so the map fades in without a flash -->
+    <color name="sbs_nav_map_bg">#ECEFEA</color>
+</resources>

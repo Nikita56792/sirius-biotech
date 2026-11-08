@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Android 12+ system splash icon: the launcher logo at 128/288, inside the 192 dp safe circle. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android" android:width="288dp" android:height="288dp" android:viewportWidth="288" android:viewportHeight="288">
+  <group android:translateX="80" android:translateY="80" android:scaleX="2.6667" android:scaleY="2.6667">
+    <path android:fillColor="#FF196EFF" android:pathData="M10,0h28a10,10 0 0 1 10,10v28a10,10 0 0 1 -10,10h-28a10,10 0 0 1 -10,-10v-28a10,10 0 0 1 10,-10z"/>
+    <path android:fillColor="#FFFFFFFF" android:pathData="M24,7L37,38 24,31 11,38z"/>
+    <path android:fillColor="#FFFFCC00" android:pathData="M24,10.5L34.5,35.5 24,29.8z"/>
+    <path android:fillColor="#FFF0AA00" android:pathData="M24,10.5L13.5,35.5 24,29.8z"/>
+  </group>
+</vector>

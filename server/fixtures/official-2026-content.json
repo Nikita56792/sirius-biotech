@@ -1,0 +1,477 @@
+{
+  "schemaVersion": 1,
+  "retrievedAtUTC": "2026-11-06T13:58:25.044814+00:00",
+  "contentYear": 2026,
+  "scope": "Verified public official 2026 summit speakers, informational partners and news. Not a 2027 participant roster. Public speaker profiles are not app login accounts.",
+  "event": {
+    "name": "Саммит разработчиков лекарственных препаратов «Сириус.Биотех»",
+    "edition": 4,
+    "startsOn": "2026-05-20",
+    "endsOn": "2026-05-22",
+    "venue": "Научно-технологический университет «Сириус»",
+    "address": "Сириус, Олимпийский проспект, 1",
+    "sourceURL": "https://siriusbiotech.ru/",
+    "dateEvidence": "20–22 мая 2026 года",
+    "addressEvidence": "Российская Федерация, Краснодарский край, федеральная территория «Сириус», Олимпийский пр., д. 1"
+  },
+  "speakers": [
+    {
+      "id": "sirius-biotech-2026-speaker-01",
+      "name": "Денис Юрьевич ЛОГУНОВ",
+      "role": "д.б.н., академик РАН, директор ФГБУ «Национальный исследовательский центр эпидемиологии и микробиологии имени почетного академика Н.Ф. Гамалеи» Министерства здравоохранения РФ",
+      "bio": "д.б.н., академик РАН, директор ФГБУ «Национальный исследовательский центр эпидемиологии и микробиологии имени почетного академика Н.Ф. Гамалеи» Министерства здравоохранения РФ",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3466-3564-4664-b266-316461386139/noroot.png",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Денис Юрьевич ЛОГУНОВ",
+        "description": "д.б.н., академик РАН, директор ФГБУ «Национальный исследовательский центр эпидемиологии и микробиологии имени почетного академика Н.Ф. Гамалеи» Министерства здравоохранения РФ",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 1
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild3466-3564-4664-b266-316461386139/noroot.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-02",
+      "name": "Елена Анатольевна МАКСИМКИНА",
+      "role": "д.ф.н., профессор, директор ФКУ «Федеральный центр планирования и организации лекарственного обеспечения» Минздрава России",
+      "bio": "д.ф.н., профессор, директор ФКУ «Федеральный центр планирования и организации лекарственного обеспечения» Минздрава России",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild6164-3839-4264-a135-323463346634/___1.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Елена Анатольевна МАКСИМКИНА",
+        "description": "д.ф.н., профессор, директор ФКУ «Федеральный центр планирования и организации лекарственного обеспечения» Минздрава России",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 2
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild6164-3839-4264-a135-323463346634/___1.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-03",
+      "name": "Глеб Борисович СУХОРУКОВ",
+      "role": "к.ф.-м.н., научный директор Научного центра LIFT, профессор Сколковского института науки и технологий",
+      "bio": "к.ф.-м.н., научный директор Научного центра LIFT, профессор Сколковского института науки и технологий",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3630-6436-4639-b337-363136323964/___1.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Глеб Борисович СУХОРУКОВ",
+        "description": "к.ф.-м.н., научный директор Научного центра LIFT, профессор Сколковского института науки и технологий",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 3
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3630-6436-4639-b337-363136323964/___1.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-04",
+      "name": "Валентина Владимировна КОСЕНКО",
+      "role": "к.ф.н., генеральный директор, ФГБУ «НЦЭСМП» Минздрава России",
+      "bio": "к.ф.н., генеральный директор, ФГБУ «НЦЭСМП» Минздрава России",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3937-6261-4261-a561-376639653761/photo.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Валентина Владимировна КОСЕНКО",
+        "description": "к.ф.н., генеральный директор, ФГБУ «НЦЭСМП» Минздрава России",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 4
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3937-6261-4261-a561-376639653761/photo.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-05",
+      "name": "Роман Алексеевич ИВАНОВ",
+      "role": "директор Научного центра трансляционной медицины Научно-технологического университета «Сириус»",
+      "bio": "директор Научного центра трансляционной медицины Научно-технологического университета «Сириус»",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3834-6531-4464-a434-383032396236/-_.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Роман Алексеевич ИВАНОВ",
+        "description": "директор Научного центра трансляционной медицины Научно-технологического университета «Сириус»",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 5
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3834-6531-4464-a434-383032396236/-_.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-06",
+      "name": "Александр Владимирович КАРАБЕЛЬСКИЙ",
+      "role": "к.б.н, руководитель направления «Генная терапия» Научного центра трансляционной медицины Научно-технологического университета «Сириус»",
+      "bio": "к.б.н, руководитель направления «Генная терапия» Научного центра трансляционной медицины Научно-технологического университета «Сириус»",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3761-3762-4331-a431-366636383231/noroot.png",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Александр Владимирович КАРАБЕЛЬСКИЙ",
+        "description": "к.б.н, руководитель направления «Генная терапия» Научного центра трансляционной медицины Научно-технологического университета «Сириус»",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 6
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild3761-3762-4331-a431-366636383231/noroot.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-07",
+      "name": "Антон Андреевич ЧУВАШОВ",
+      "role": "руководитель Лабораторного комплекса Научно-технологического университета «Сириус»",
+      "bio": "руководитель Лабораторного комплекса Научно-технологического университета «Сириус»",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3439-3663-4764-b461-333865616130/_.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Антон Андреевич ЧУВАШОВ",
+        "description": "руководитель Лабораторного комплекса Научно-технологического университета «Сириус»",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 7
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3439-3663-4764-b461-333865616130/_.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-08",
+      "name": "Сергей Сергеевич ЛАРИН",
+      "role": "к.б.н., заместитель директора по научной работе Высшей школы молекулярной и экспериментальной медицины, ФГБУ «НМИЦ ДГОИ им. Д. Рогачева»",
+      "bio": "к.б.н., заместитель директора по научной работе Высшей школы молекулярной и экспериментальной медицины, ФГБУ «НМИЦ ДГОИ им. Д. Рогачева»",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3065-3466-4633-b665-326239656361/photo.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Сергей Сергеевич ЛАРИН",
+        "description": "к.б.н., заместитель директора по научной работе Высшей школы молекулярной и экспериментальной медицины, ФГБУ «НМИЦ ДГОИ им. Д. Рогачева»",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 8
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3065-3466-4633-b665-326239656361/photo.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-09",
+      "name": "Пётр Владимирович СЕРГИЕВ",
+      "role": "д.х.н., профессор РАН, член-корр. РАН, директор, НИИ физико-химической биологии им. А.Н. Белозерского, МГУ им. М.В. Ломоносова",
+      "bio": "д.х.н., профессор РАН, член-корр. РАН, директор, НИИ физико-химической биологии им. А.Н. Белозерского, МГУ им. М.В. Ломоносова",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild6639-6534-4166-a636-613734343532/noroot.png",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Пётр Владимирович СЕРГИЕВ",
+        "description": "д.х.н., профессор РАН, член-корр. РАН, директор, НИИ физико-химической биологии им. А.Н. Белозерского, МГУ им. М.В. Ломоносова",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 9
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild6639-6534-4166-a636-613734343532/noroot.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-10",
+      "name": "Алессандро ПАРОДИ",
+      "role": "PhD, c.н.с. Научного центра трансляционной медицины, Научно-технологический университет «Сириус»",
+      "bio": "PhD, c.н.с. Научного центра трансляционной медицины, Научно-технологический университет «Сириус»",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild6365-3334-4365-b333-343262303635/photo.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Алессандро ПАРОДИ",
+        "description": "PhD, c.н.с. Научного центра трансляционной медицины, Научно-технологический университет «Сириус»",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 10
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild6365-3334-4365-b333-343262303635/photo.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-11",
+      "name": "Игорь Викторович КРАСИЛЬНИКОВ",
+      "role": "д.б.н., профессор, директор, компания РБТ — Развитие БиоТехнологий",
+      "bio": "д.б.н., профессор, директор, компания РБТ — Развитие БиоТехнологий",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild6534-6531-4864-b638-343133663632/photo.jpg",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Игорь Викторович КРАСИЛЬНИКОВ",
+        "description": "д.б.н., профессор, директор, компания РБТ — Развитие БиоТехнологий",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 11
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild6534-6531-4864-b638-343133663632/photo.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-speaker-12",
+      "name": "Владимир Александрович РИХТЕР",
+      "role": "д.б.н., заведующий лабораторией биотехнологии, ИХБФМ СО РАН, президент группы компаний, «Биосан и Биолабмикс»",
+      "bio": "д.б.н., заведующий лабораторией биотехнологии, ИХБФМ СО РАН, президент группы компаний, «Биосан и Биолабмикс»",
+      "bioType": "official_short_role_description",
+      "photoURL": "https://static.tildacdn.com/tild3037-3131-4462-b766-653164356262/photo.png",
+      "year": 2026,
+      "sourceURL": "https://siriusbiotech.ru/#speakers",
+      "evidence": {
+        "title": "Владимир Александрович РИХТЕР",
+        "description": "д.б.н., заведующий лабораторией биотехнологии, ИХБФМ СО РАН, президент группы компаний, «Биосан и Биолабмикс»",
+        "imageAttribute": "meta[itemprop=image].content",
+        "cardIndex": 12
+      },
+      "accountCreated": false,
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild3037-3131-4462-b766-653164356262/photo.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    }
+  ],
+  "partners": [
+    {
+      "id": "sirius-biotech-2026-partner-gxpnews",
+      "name": "GxP News",
+      "category": "Информационные партнеры",
+      "year": 2026,
+      "websiteURL": "https://gxpnews.net/",
+      "imageURL": "https://static.tildacdn.com/tild6536-3433-4337-b138-353735626133/GxP_logo.png",
+      "sourceURL": "https://siriusbiotech.ru/#infopartners",
+      "evidence": {
+        "sectionHeading": "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ",
+        "linkedWebsite": "https://gxpnews.net/",
+        "logoAttribute": "img.data-original"
+      },
+      "nameEvidence": "Public brand label identified by the linked domain; official event evidence confirms placement in informational partners, not sponsorship level.",
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild6536-3433-4337-b138-353735626133/GxP_logo.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-partner-pcr",
+      "name": "ПЦР.Новости",
+      "category": "Информационные партнеры",
+      "year": 2026,
+      "websiteURL": "https://pcr.news/?utm_source=site&utm_medium=logo&utm_campaign=sirius_biotech_2026",
+      "imageURL": "https://static.tildacdn.com/tild6430-3338-4539-a234-383165376363/logo_png.png",
+      "sourceURL": "https://siriusbiotech.ru/#infopartners",
+      "evidence": {
+        "sectionHeading": "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ",
+        "linkedWebsite": "https://pcr.news/?utm_source=site&utm_medium=logo&utm_campaign=sirius_biotech_2026",
+        "logoAttribute": "img.data-original"
+      },
+      "nameEvidence": "Public brand label identified by the linked domain; official event evidence confirms placement in informational partners, not sponsorship level.",
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild6430-3338-4539-a234-383165376363/logo_png.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-partner-biomolecula",
+      "name": "Биомолекула",
+      "category": "Информационные партнеры",
+      "year": 2026,
+      "websiteURL": "https://biomolecula.ru/",
+      "imageURL": "https://static.tildacdn.com/tild3761-6431-4331-a337-383130666563/logo---.png",
+      "sourceURL": "https://siriusbiotech.ru/#infopartners",
+      "evidence": {
+        "sectionHeading": "ИНФОРМАЦИОННЫЕ ПАРТНЕРЫ",
+        "linkedWebsite": "https://biomolecula.ru/",
+        "logoAttribute": "img.data-original"
+      },
+      "nameEvidence": "Public brand label identified by the linked domain; official event evidence confirms placement in informational partners, not sponsorship level.",
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/png",
+        "finalURL": "https://static.tildacdn.com/tild3761-6431-4331-a337-383130666563/logo---.png",
+        "firstBytesHex": "89504e470d0a1a0a0000000d",
+        "verifiedImage": true
+      }
+    }
+  ],
+  "news": [
+    {
+      "id": "sirius-biotech-2026-news-xmvhyap2b1",
+      "title": "В Сириусе определили вектор развития российской биофармацевтики",
+      "date": "2026-05-25 14:34",
+      "publishedAt": "2026-05-26 15:08:06",
+      "year": 2026,
+      "summary": "На федеральной территории «Сириус» завершился четвёртый ежегодный Саммит разработчиков лекарственных средств Сириус.Биотех. Мероприятие стало главным событием года для диалога между наукой, бизнесом и государством, собрав более 1,5 тысяч участников: ведущих учёных, представителей регуляторных органов, руководителей фармкомпаний и молодых исследователей. Одной из важнейших тем Саммита в этом году стал переход от фундаментальных открытий к разработке и коммерциализации инновационных препаратов. Организатором традиционно выступил Научно-технологический университет «Сириус». В этом году мероприятие получило поддержку в рамках госпрограммы научно-технологического развития федеральной территории «Сириус».",
+      "imageURL": "https://static.tildacdn.com/tild3930-3231-4539-b133-386166653133/seBtFFuQf6M9nPBLFGmT.jpg",
+      "sourceURL": "https://siriusbiotech.ru/tpost/xmvhyap2b1-v-siriuse-opredelili-vektor-razvitiya-ro",
+      "evidence": {
+        "officialFeedURL": "https://feeds.tildacdn.com/api/getfeed/?feeduid=406273536701&size=10",
+        "feedUID": "xmvhyap2b1",
+        "articleLeadQuote": "На федеральной территории «Сириус» завершился четвёртый ежегодный Саммит разработчиков лекарственных средств Сириус.Биотех. Мероприятие стало главным событием года для диалога между наукой, бизнесом и государством, собрав более 1,5 тысяч участников: ведущих учёных, представителей регуляторных органов, руководителей фармкомпаний и молодых исследователей. Одной из важнейших тем Саммита в этом году стал переход от фундаментальных открытий к разработке и коммерциализации инновационных препаратов. Организатором традиционно выступил Научно-технологический университет «Сириус». В этом году мероприятие получило поддержку в рамках госпрограммы научно-технологического развития федеральной территории «Сириус»."
+      },
+      "sourceFile": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-xmvhyap2b1.html",
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3930-3231-4539-b133-386166653133/seBtFFuQf6M9nPBLFGmT.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-news-u02lcvej81",
+      "title": "В Сириусе будут готовить разработчиков лекарств нового поколения",
+      "date": "2026-05-24 15:09",
+      "publishedAt": "2026-05-26 15:11:17",
+      "year": 2026,
+      "summary": "Научно-технологический университет «Сириус» представил две новые магистерские программы, ориентированные на подготовку специалистов для биотехнологических компаний, фармацевтической и медицинской промышленности. Они разработаны и будут реализованы совместно с ведущими фармацевтическими компаниями и научными центрами России. Обучение на программах бесплатное и займёт два года. Приём заявлений стартует 20 июня 2026 года.",
+      "imageURL": "https://static.tildacdn.com/tild3034-3732-4063-b535-316632376634/_______.jpeg",
+      "sourceURL": "https://siriusbiotech.ru/tpost/u02lcvej81-v-siriuse-budut-gotovit-razrabotchikov-l",
+      "evidence": {
+        "officialFeedURL": "https://feeds.tildacdn.com/api/getfeed/?feeduid=406273536701&size=10",
+        "feedUID": "u02lcvej81",
+        "articleLeadQuote": "Научно-технологический университет «Сириус» представил две новые магистерские программы, ориентированные на подготовку специалистов для биотехнологических компаний, фармацевтической и медицинской промышленности. Они разработаны и будут реализованы совместно с ведущими фармацевтическими компаниями и научными центрами России. Обучение на программах бесплатное и займёт два года. Приём заявлений стартует 20 июня 2026 года."
+      },
+      "sourceFile": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-u02lcvej81.html",
+      "imageVerification": {
+        "status": 206,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild3034-3732-4063-b535-316632376634/_______.jpeg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    },
+    {
+      "id": "sirius-biotech-2026-news-1hx8rn0xg1",
+      "title": "На федеральной территории стартовал Саммит разработчиков лекарственных препаратов Сириус.Биотех",
+      "date": "2026-05-20 19:25",
+      "publishedAt": "2026-05-20 19:27:51",
+      "year": 2026,
+      "summary": "Мероприятие собрало представителей университетов, академических институтов и высокотехнологичных компаний, вовлечённых в разработку новых лекарств, а также студентов и молодых учёных.",
+      "imageURL": "https://static.tildacdn.com/tild6638-3831-4964-a564-313366323234/7jpp13mgzuzibr5mho9t.jpg",
+      "sourceURL": "https://siriusbiotech.ru/tpost/1hx8rn0xg1-na-federalnoi-territorii-startoval-sammi",
+      "evidence": {
+        "officialFeedURL": "https://feeds.tildacdn.com/api/getfeed/?feeduid=406273536701&size=10",
+        "feedUID": "1hx8rn0xg1",
+        "articleLeadQuote": "Мероприятие собрало представителей университетов, академических институтов и высокотехнологичных компаний, вовлечённых в разработку новых лекарств, а также студентов и молодых учёных."
+      },
+      "sourceFile": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-1hx8rn0xg1.html",
+      "imageVerification": {
+        "status": 200,
+        "contentType": "image/jpeg",
+        "finalURL": "https://static.tildacdn.com/tild6638-3831-4964-a564-313366323234/7jpp13mgzuzibr5mho9t.jpg",
+        "firstBytesHex": "ffd8ffe000104a4649460001",
+        "verifiedImage": true
+      }
+    }
+  ],
+  "sourceFiles": [
+    {
+      "file": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/homepage.html",
+      "sha256": "c698a427a98d2b179e5875371ddddb65c4486aca44458c55e3596e7889a0d8c6"
+    },
+    {
+      "file": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-1hx8rn0xg1.html",
+      "sha256": "4d510a6a7737296eb0766793797bd689ed677d7f18bbc3a75bdbae366525c2ce"
+    },
+    {
+      "file": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-feed.json",
+      "sha256": "814f1a46ebe1097a5c5a2ec4d9f6a34e8619fb79513d9e5dde57285d7f6a973e"
+    },
+    {
+      "file": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-u02lcvej81.html",
+      "sha256": "bad49882644f450df256d264f91117c278fb1b036baf02e2a36881651be035a9"
+    },
+    {
+      "file": "/Users/nikitasyzdykov/Desktop/SBS/research/official-2026-downloads.pbZTIV/news-xmvhyap2b1.html",
+      "sha256": "f35c6deee0b7724c8e337122637a021fbd6bde99674667b08ff913ccec6cffa6"
+    }
+  ],
+  "unknowns": [
+    "Full extended biographies were not provided in homepage speaker cards; bio repeats the exact published role/credentials and must not be represented as an independently researched long biography.",
+    "Speaker listing proves public 2026 participation as advertised, not actual attendance or consent to an SBS login account. No account, access code, email or phone was created or collected.",
+    "Official CDN image URLs are verified as images when imageVerification.verifiedImage is true; reuse permissions/licences are not stated. Do not imply portrait licensing is established.",
+    "Only informational partners with explicit homepage outbound links are included; unidentified sponsor logos are excluded.",
+    "No 2027 dates, participation, partnership or news claims are inferred from 2026 sources.",
+    "No direct siriusuniversity.ru news page was used for these records; sources are the official siriusbiotech.ru summit site and its linked Tilda CDN/feed.",
+    "News date and publishedAt can differ; both are retained verbatim from official feed."
+  ]
+}

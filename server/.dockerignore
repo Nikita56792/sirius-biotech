@@ -1,0 +1,10 @@
+.env
+tls/
+data/
+backups/
+ACCESS-LOCAL.txt
+.venv*
+__pycache__
+.pytest_cache
+tests
+*.sqlite3*

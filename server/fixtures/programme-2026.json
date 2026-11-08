@@ -1,0 +1,212 @@
+{
+  "schema_version": 1,
+  "label": "ARCHIVE2026",
+  "source_year": 2026,
+  "intended_fixture_context": "SBS2027 preliminary archive examples only; not the 2027 programme",
+  "verified_on": "2026-11-05",
+  "event": {
+    "title": "Саммит разработчиков лекарственных препаратов «Сириус.Биотех»",
+    "edition": 4,
+    "start_date": "2026-05-20",
+    "end_date": "2026-05-22",
+    "source_urls": [
+      "https://siriusbiotech.ru/",
+      "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    ]
+  },
+  "programme": {
+    "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+    "linked_from": [
+      "https://siriusbiotech.ru/program",
+      "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    ],
+    "local_pdf": "/Users/nikitasyzdykov/Desktop/SBS/research/official-programme-hf5el_3k/programme.pdf",
+    "sha256": "d3d78992f01b2bbfd4c42a9fe5cd6a50bc97f9ac9a741e7b6240bef34656c08e",
+    "year_evidence": "Both official 2026 event pages link this exact PDF; its Wednesday 20 May / Friday 22 May schedule matches 2026, not 2025. A talk mentioning 2025–2026 is not evidence that this is a 2025 programme."
+  },
+  "sessions": [
+    {
+      "id": "archive2026-01",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Пленарная сессия",
+      "date": "2026-05-20",
+      "start_time": "09:30",
+      "end_time": "11:30",
+      "room": "Зал пленарных заседаний",
+      "speakers": [
+        {
+          "name": "Rudolf Valenta",
+          "affiliation": "Научный центр LIFT",
+          "talk_title": "Innovative diagnosis, treatment and prevention strategies for allergy",
+          "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+          "source_page": 2
+        }
+      ],
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 2,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/",
+      "speakers_complete": false
+    },
+    {
+      "id": "archive2026-02",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Прорывы года в России: биотехнологические препараты",
+      "date": "2026-05-20",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "room": "Атом",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 5,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-03",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Прорывы года в России: малые молекулы",
+      "date": "2026-05-20",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "room": "Зима",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 6,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-04",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Прорывы года в России: системы доставки",
+      "date": "2026-05-20",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "room": "Вектор",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 7,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-05",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Тренды: мРНК-препараты",
+      "date": "2026-05-20",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "room": "Молекула",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 5,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-06",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Регуляторные требования к разработке лекарственных препаратов",
+      "date": "2026-05-20",
+      "start_time": "14:30",
+      "end_time": "16:00",
+      "room": "Атом",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 8,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-07",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Оценка критических показателей качества биотехнологических продуктов: интерпретация данных аналитических исследований",
+      "date": "2026-05-21",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "room": "Молекула",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 5,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-08",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Современные подходы к проведению доклинических исследований",
+      "date": "2026-05-21",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "room": "Геном",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 3,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-09",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "AI и математическое моделирование в разработке лекарств",
+      "date": "2026-05-21",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "room": "Атом",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 3,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-10",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Имплантируемые лекарственные формы",
+      "date": "2026-05-21",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "room": "Вектор",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 3,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-11",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Новые способы введения лекарственных препаратов",
+      "date": "2026-05-22",
+      "start_time": "10:00",
+      "end_time": "11:30",
+      "room": "Геном",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 4,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    },
+    {
+      "id": "archive2026-12",
+      "label": "ARCHIVE2026",
+      "year": 2026,
+      "title": "Разработка биопроцессов",
+      "date": "2026-05-22",
+      "start_time": "12:00",
+      "end_time": "13:30",
+      "room": "Вектор",
+      "speakers": null,
+      "source_url": "https://siriusuniversity.ru/upload/medialibrary/464/kq5utg49e3g5fv2q15klf5drjzh3veva/Программа_от%2020%20мая.pdf",
+      "source_page": 4,
+      "year_source_url": "https://siriusuniversity.ru/admission/educational-modules-and-activities/nauchnii-tsentr-translyatsionnoi-meditsini/sammit-razrabotchikov-lekarstvennykh-preparatov-sirius-biotekh/"
+    }
+  ],
+  "unknowns": [
+    "Most speaker and moderator names appear as PERSON placeholders in retrieved source text; they are not guessed. Null speakers means unavailable, not no speakers.",
+    "Plenary speaker list is partial; only the recoverable Rudolf Valenta entry is included.",
+    "PDF pages count cover as page 1. Session times are programme wall-clock times; timezone is not explicitly verified.",
+    "No 2027 session dates, rooms or speakers are confirmed; do not relabel these as a 2027 schedule."
+  ]
+}

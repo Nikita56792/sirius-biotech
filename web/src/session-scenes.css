@@ -1,0 +1,24 @@
+/* MSS retained session and poll layouts, in web units. */
+.mss-session-main,.mss-poll-main{padding:0 8px calc(8px + env(safe-area-inset-bottom));}
+.mss-session-card,.mss-poll-card{background:#fff;border-radius:8px 8px 0 0;box-shadow:0 0 2px #0003;min-height:calc(100dvh - 64px - env(safe-area-inset-top));overflow:hidden;}
+.mss-session-heading h2{font-size:16px;font-weight:500;line-height:21px;margin:0;padding:12px 12px 0;}
+.mss-session-tabs{display:flex;margin-top:16px;border-bottom:1px solid #e8e8ec;}
+.mss-session-tabs button{background:transparent;color:#929fa8;flex:1;min-height:48px;border-radius:0;padding:10px 8px;font-size:14px;position:relative;}
+.mss-session-tabs button.selected{color:#356aff;}
+.mss-session-tabs button.selected:after{position:absolute;content:'';height:2px;background:#356aff;left:12px;right:12px;bottom:0;border-radius:2px;}
+.mss-session-content{min-height:calc(100dvh - 180px);}
+.mss-session-information{padding:16px 0 24px;}
+.mss-session-metadata{display:flex;width:100%;gap:12px;align-items:center;padding:12px;color:#2c333b;text-align:left;background:transparent;border-radius:0;font-size:16px;min-height:48px;}
+.mss-session-metadata>img{height:24px;width:24px;padding:4px;border-radius:50%;background:#e9eef5;object-fit:contain;}
+.mss-session-metadata>span:nth-child(2){flex:1;}
+.mss-row-chevron{font-size:24px;line-height:20px;color:#929fa8;}
+.mss-session-tag{margin:8px 12px;padding:4px 10px;border-radius:12px;background:#e9eef5;display:inline-block;font-size:13px;}
+.mss-session-description,.mss-session-speaker-fallback{font-size:16px;line-height:1.35;white-space:pre-wrap;margin:0;padding:10px 16px 14px;}
+.mss-session-speaker{display:flex;align-items:center;text-align:left;gap:8px;min-height:80px;width:100%;background:transparent;border-radius:0;padding:12px;color:#2c333b;}
+.mss-session-speaker .avatar{width:56px;height:56px;flex:0 0 56px;margin:0;}
+.mss-session-speaker>span:last-child{display:flex;flex-direction:column;gap:4px;}.mss-session-speaker strong{font-weight:500;}.mss-session-speaker small{font-size:14px;color:#929fa8;}
+.mss-session-favorite{margin-left:auto;background:transparent;color:#ffce00;font-size:28px;min-width:44px;padding:4px;}
+.mss-rating-box{margin:12px 0;}.session-rating-trigger{display:flex;align-items:center;gap:10px;width:calc(100% - 24px);min-height:56px;margin:0 12px;border-radius:12px;background:#252650;color:#fff;padding:14px;font-size:16px;text-align:left;font-weight:500;}
+.session-rating-trigger span{flex:1;}.session-rating-trigger svg{fill:currentColor;flex-shrink:0;}.session-rating-trigger .rating-icon{width:24px;height:24px;}.session-rating-trigger .rating-chevron{width:16px;height:16px;}.session-rating-trigger.rated{background:#e3e3ec;color:#2c333b;}.session-rating-trigger.rated .rating-icon{color:#252650;}.session-rating-trigger.rated .rating-chevron{color:#929fa8;}
+.mss-session-questions{display:flex;flex-direction:column;min-height:calc(100dvh - 180px);background:#f4f5f7;}.mss-question-list{padding:12px;}.mss-question-item{background:#fff;border-radius:8px;margin-bottom:8px;padding:12px 16px;font-size:16px;}.mss-question-item p{white-space:pre-wrap;margin:0;}.mss-question-answer{color:#356aff;margin-top:8px!important;}.mss-question-empty{text-align:center;color:#929fa8;padding:48px 12px;}.mss-question-refresh{background:transparent;color:#356aff;padding:8px;}.mss-question-composer{display:flex;align-items:end;gap:4px;margin-top:auto;padding:6px 8px calc(6px + env(safe-area-inset-bottom));background:#fff;}.mss-question-composer textarea{resize:vertical;flex:1;min-height:40px;max-height:160px;background:#f4f5f7;border:0;border-radius:6px;padding:10px 12px;font-size:16px;}.mss-question-send{width:44px;min-width:44px;height:44px;display:grid;place-items:center;background:transparent;padding:10px;}.mss-question-send img{width:24px;height:24px;}.mss-question-send:disabled{opacity:.4;}
+.mss-poll-card{display:flex;flex-direction:column;padding:16px 12px;}.mss-poll-card>h2{font-size:16px;line-height:21px;margin:0;padding:16px 4px;font-weight:700;}.mss-poll-stars{display:flex;justify-content:center;gap:12px;padding:16px 0;}.mss-poll-stars button{background:none;border:0;padding:0;min-width:40px;height:48px;color:#dfe3e9;}.mss-poll-stars svg{display:block;width:40px;height:40px;fill:currentColor;}.mss-poll-stars button.selected{color:#ffd900;}.mss-poll-stars button:focus-visible{outline:2px solid #356aff;outline-offset:3px;}.mss-poll-error{color:#b7233c;padding:0 4px;}.mss-poll-submit{margin-top:auto;min-height:48px;width:100%;background:#252650;color:#fff;border-radius:12px;font-size:16px;}.mss-poll-submit:disabled{opacity:.5;}.mss-poll-completion{flex:1;display:flex;align-items:center;justify-content:center;flex-direction:column;text-align:center;}.mss-poll-completion svg{width:120px;height:120px;}.mss-poll-completion h2{font-size:20px;font-weight:500;margin:16px 0;}

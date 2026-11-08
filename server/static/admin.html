@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Сириус.Биотех — организатор</title>
+  <link rel="icon" type="image/png" sizes="64x64" href="/static/assets/favicon.png?v=3">
+  <link rel="stylesheet" href="/static/admin.css">
+  <script src="/static/admin.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">К содержимому</a>
+  <header class="topbar">
+    <a href="/admin" class="brand" aria-label="Сириус.Биотех, главная"><img src="/static/assets/sirius_logo.png" alt="Сириус.Биотех"></a><span id="read-only-indicator" class="hint" hidden>Только просмотр</span>
+    <span class="topbar-label">Кабинет организатора</span>
+    <button id="logout" class="quiet" hidden>Выйти</button>
+  </header>
+  <main id="main">
+    <section id="login" class="login-card" aria-labelledby="login-title">
+      <div class="login-intro"><img src="/static/assets/auth-welcome.svg" alt="" width="104" height="104"><p class="eyebrow">СИРИУС.БИОТЕХ</p><h1 id="login-title">Всё для вашего события</h1><p>Подготовьте программу, помогайте участникам и делитесь важным.</p></div>
+      <form id="login-form"><label for="code">Код организатора</label><input id="code" type="password" autocomplete="current-password" required maxlength="256" aria-describedby="login-help"><p id="login-help" class="hint">Используйте личный код с доступом организатора.</p><button class="primary" type="submit">Войти</button><p id="login-error" class="error" role="alert"></p></form>
+    </section>
+    <section id="workspace" hidden>
+      <aside class="sidebar"><p class="nav-heading">Событие</p><nav aria-label="Разделы кабинета">
+        <button data-kind="sessions" aria-current="page" class="selected"><img src="/static/assets/schedule.svg" alt="">Программа</button>
+        <button data-kind="people"><img src="/static/assets/people.svg" alt="">Участники</button>
+        <button data-kind="posts"><img src="/static/assets/news.svg" alt="">Новости</button>
+        <button data-kind="partners"><img src="/static/assets/partners.svg" alt="">Партнёры</button>
+        <button data-kind="questions"><img src="/static/assets/inbox.svg" alt="">Вопросы</button>
+        <button data-kind="ratings"><img src="/static/assets/favorites.svg" alt="">Оценки</button>
+        
+      </nav></aside>
+      <div class="content">
+        <div class="toolbar section-heading"><div><h1 id="section-title">Программа</h1><p id="section-description"></p></div><button id="new" class="primary">Добавить сессию</button></div>
+        <nav id="participant-tabs" class="participant-tabs" aria-label="Участники" hidden><button type="button" data-participant-tab="people">Регистрация участников</button><button type="button" data-participant-tab="recovery">Помощь со входом</button></nav><p id="mail-readiness" class="hint" role="status" hidden></p>
+        <div class="list-tools"><label class="search-label" for="search">Поиск в разделе<input id="search" type="search" placeholder="Найти по названию или имени" autocomplete="off"></label><button id="refresh" class="quiet">Обновить</button></div>
+        <div id="feedback-filters" class="filters" hidden><label>Сессия<select id="feedback-session"><option value="">Все сессии</option></select></label><label id="question-status-label">Статус<select id="question-status"><option value="">Все</option><option value="pending">Ожидает ответа</option><option value="answered">Отвечен</option><option value="hidden">Скрыт</option></select></label></div>
+        <p id="privacy-note" class="hint" hidden></p>
+        <section id="secret-panel" class="secret-panel" hidden aria-labelledby="secret-title"><div class="toolbar"><h2 id="secret-title">Код доступа участника</h2><button id="hide-secret" class="quiet">Скрыть код</button></div><p id="secret" class="access-code"></p></section>
+        <p id="status" role="status" aria-live="polite"></p><p id="freshness" class="hint" role="status" aria-live="polite" hidden></p>
+        <div id="records" aria-live="polite" aria-busy="false"></div>
+        <div id="feedback-pages" class="pagination" hidden><button id="previous" class="quiet">Назад</button><span id="page-label"></span><button id="next" class="quiet">Далее</button></div>
+      </div>
+    </section>
+  </main>
+  <dialog id="editor" aria-labelledby="edit-title"><form id="edit-form"><div class="toolbar"><h2 id="edit-title">Новая запись</h2><button type="button" id="close" class="quiet">Закрыть</button></div><div id="fields"></div><p id="edit-error" class="error" role="alert"></p><div class="editor-bottom"><button id="save" class="primary" type="submit">Сохранить</button></div></form></dialog>
+  <footer>Сириус.Биотех <span>Рабочее пространство организаторов</span></footer>
+</body>
+</html>

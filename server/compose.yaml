@@ -1,0 +1,64 @@
+services:
+  server:
+    build: .
+    ports:
+      - "127.0.0.1:8080:8080"
+    environment:
+      ADMIN_CODE: ${ADMIN_CODE:?Generate a random ADMIN_CODE in .env first}
+      PIN_LOOKUP_SECRET: ${PIN_LOOKUP_SECRET:?Generate a separate random PIN_LOOKUP_SECRET in .env first}
+      COOKIE_SECURE: ${COOKIE_SECURE:-false}
+      DATABASE_PATH: /data/sbs.sqlite3
+
+      SBS_SMTP_HOST: ${SBS_SMTP_HOST:-}
+      SBS_SMTP_PORT: ${SBS_SMTP_PORT:-587}
+      SBS_SMTP_USER: ${SBS_SMTP_USER:-}
+      SBS_SMTP_PASSWORD: ${SBS_SMTP_PASSWORD:-}
+      SBS_SMTP_FROM: ${SBS_SMTP_FROM:-}
+      SBS_SMTP_SECURITY: ${SBS_SMTP_SECURITY:-starttls}
+    volumes:
+      - sbs_data:/data
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8080/health', timeout=3)"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+      start_period: 10s
+  mailer:
+    build: .
+    command: ["python", "mail_worker.py"]
+    environment:
+      DATABASE_PATH: /data/sbs.sqlite3
+      PIN_LOOKUP_SECRET: ${PIN_LOOKUP_SECRET:?Required}
+      SBS_SMTP_HOST: ${SBS_SMTP_HOST:-}
+      SBS_SMTP_PORT: ${SBS_SMTP_PORT:-587}
+      SBS_SMTP_USER: ${SBS_SMTP_USER:-}
+      SBS_SMTP_PASSWORD: ${SBS_SMTP_PASSWORD:-}
+      SBS_SMTP_FROM: ${SBS_SMTP_FROM:-}
+      SBS_SMTP_SECURITY: ${SBS_SMTP_SECURITY:-starttls}
+    volumes:
+      - sbs_data:/data
+    depends_on:
+      server:
+        condition: service_healthy
+    restart: unless-stopped
+    read_only: true
+    tmpfs:
+      - /tmp:size=16m,mode=1777
+    cap_drop: [ALL]
+    security_opt: [no-new-privileges:true]
+    mem_limit: 192m
+    healthcheck:
+      test: ["CMD", "python", "-c", "import time,pathlib; assert time.time()-float(pathlib.Path('/tmp/mail-worker-heartbeat').read_text())<600"]
+      interval: 30s
+      timeout: 5s
+      retries: 3
+volumes:
+  sbs_data:

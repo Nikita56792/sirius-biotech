@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SbsNavAppTheme" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:colorPrimary">#196EFF</item>
+        <item name="android:colorAccent">#196EFF</item>
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowLightNavigationBar">true</item>
+        <item name="android:windowBackground">@drawable/sbs_nav_splash_bg</item>
+        <!-- system splash: same colour as the map ground, the logo; kept on screen until the map can be drawn -->
+        <item name="android:windowSplashScreenBackground">@color/sbs_nav_map_bg</item>
+        <item name="android:windowSplashScreenAnimatedIcon">@drawable/sbs_nav_splash_icon</item>
+    </style>
+</resources>
